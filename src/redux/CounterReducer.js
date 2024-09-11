@@ -1,4 +1,3 @@
-import React from 'react'
 import { BUY_BOOK, DECREMENT, INCREMENT } from './action'
 const initialState = {
     count:0,

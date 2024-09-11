@@ -1,6 +1,6 @@
-export const INCREMENT = "INCREMENT"
-export const DECREMENT = "DECREMENT"
-export const BUY_BOOK = "BUY_BOOK"
+export const INCREMENT = "Increment"
+export const DECREMENT = "Decrement"
+export const BUY_BOOK = "Buy_Book"
 
 
 export const increment =()=>{

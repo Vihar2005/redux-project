@@ -11,6 +11,7 @@ import Signup from './Auth-login/Signup.jsx'
 import Signin from './Auth-login/Signin.jsx'
 import Home from './Auth-login/Home.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ReduxToolkit from './Components/Redux-toolkit.jsx'
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <>
       <h3>my project</h3>
       {/* <ReduxComponent /> */}
+      <ReduxToolkit />
       {/* <StudentComponent /> */}
       {/* <Crudcomponent /> */}
       {/* <Thunkcomponent /> */}
@@ -35,11 +37,11 @@ function App() {
     
     {/* <Signup /> */}
     {/* <Signin /> */}
-    <BrowserRouter>
-      <Routes>
+    {/* <BrowserRouter>
+      <Routes> */}
         {/* <Route path='/' element={<SliderComp />}></Route> */}
-        <Route path='/Home' element={<Home />}></Route>
-        <Route path='/Signup' element={<Signup />}></Route>
+        {/* <Route path='/Home' element={<Home />}></Route>
+        <Route path='/Signup' element={<Signup />}></Route> */}
         {/* <Route path='/Home' element={<Home />}></Route> */}
         {/* <Route path='/About' element={<About />}></Route>
         <Route path='/Shop' element={<Shop />}></Route>
@@ -47,8 +49,8 @@ function App() {
         <Route path="/signup" element={<Register />} />
         <Route path="/login" element={<Login />} /> */}
         {/* <Route path='/list' element={<List />}></Route> */}
-      </Routes>
-    </BrowserRouter>
+      {/* </Routes>
+    </BrowserRouter> */}
 
     </>
   )
